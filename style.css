@@ -1,0 +1,111 @@
+/* RESET CƠ BẢN */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #f5f6fa;
+    padding: 20px;
+}
+
+/* TIÊU ĐỀ */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+/* ===== FORM NHẬP SINH VIÊN ===== */
+.form-container {
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+/* INPUT */
+.form-container input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-color: #6a9bd4;
+}
+
+/* NÚT LƯU */
+.btn-save {
+    padding: 10px 20px;
+    background-color: #5b8fd1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-save:hover {
+    background-color: #4a7dc2;
+}
+
+/* ===== BẢNG SINH VIÊN ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;           /* QUAN TRỌNG */
+
+.btn-save:hover {
+    background: #4a7dc2;
+}
+
+/* BẢNG */
+table {
+    width: 100%;
+    border-collapse: collapse; /* gộp viền */
+    background: white;
+    border: 2px solid #6a9bd4; /* viền ngoài bảng */
+}
+
+th, td {
+    border: 1px solid #6a9bd4; /* viền từng ô */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #6a9bd4;
+    color: white;
+}
+
+
+button {
+    padding: 6px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+button:nth-child(1) {
+    background: #f39c12;
+    color: white;
+}
+
+button:nth-child(2) {
+    background: #e74c3c;
+    color: white;
+}
